@@ -1,5 +1,5 @@
 const fs = require("fs/promises")
-const tf =   require('@tensorflow/tfjs-node')
+const tf =   require('@tensorflow/tfjs-node-gpu')
 
 let flattenedDataset
 
