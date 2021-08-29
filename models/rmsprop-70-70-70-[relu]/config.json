@@ -1,0 +1,29 @@
+{
+  "name": "rmsprop-70-70-70-[relu]",
+  "complete": false,
+  "inputLayer": {
+    "inputShape": 222,
+    "units": 222,
+    "activation": "none"
+  },
+  "outputLayer": {
+    "units": 1
+  },
+  "hidenLayers": [
+    {
+      "units": "70",
+      "activation": "relu"
+    },
+    {
+      "units": "70",
+      "activation": "relu"
+    },
+    {
+      "units": "70",
+      "activation": "relu"
+    }
+  ],
+  "optimizer": "rmsprop",
+  "loss": "meanSquaredError",
+  "metrics": "mape"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "rmsprop-50-50-50-[relu]",
+  "complete": false,
+  "inputLayer": {
+    "inputShape": 222,
+    "units": 222,
+    "activation": "none"
+  },
+  "outputLayer": {
+    "units": 1
+  },
+  "hidenLayers": [
+    {
+      "units": "50",
+      "activation": "relu"
+    },
+    {
+      "units": "50",
+      "activation": "relu"
+    },
+    {
+      "units": "50",
+      "activation": "relu"
+    }
+  ],
+  "optimizer": "rmsprop",
+  "loss": "meanSquaredError",
+  "metrics": "mape"
+}

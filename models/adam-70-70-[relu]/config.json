@@ -1,0 +1,25 @@
+{
+  "name": "adam-70-70-[relu]",
+  "complete": false,
+  "inputLayer": {
+    "inputShape": 222,
+    "units": 222,
+    "activation": "none"
+  },
+  "outputLayer": {
+    "units": 1
+  },
+  "hidenLayers": [
+    {
+      "units": "70",
+      "activation": "relu"
+    },
+    {
+      "units": "70",
+      "activation": "relu"
+    }
+  ],
+  "optimizer": "adam",
+  "loss": "meanSquaredError",
+  "metrics": "mape"
+}
